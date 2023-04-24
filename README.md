@@ -20,6 +20,9 @@
 
 > git config ---global user.name "gamlerd13"
 
+Par ver que usuario tenemos en local: git config user.name
+lo mismo para ver el email
+
 ---
 
 ### Para mostrar todos lo commits git log
@@ -69,3 +72,17 @@ Para editar el ultimo commit
 
 Aqui solo hace falta crear un archivo .gitignore y dentro escribir en cada fila la carpeta
 o el nombre del archivo que no deseas hacer commit. me deja hacer commits ilimitados creo xd
+
+## Ramas
+
+### Para ver lista de ramas y en que rama estamos
+
+> git branch
+
+### para crer una nueva rama
+
+> git branch nombreRama :ejmplo: git branch version-1.0
+
+### para cambiar de rama
+
+> git checkout nombreRama : ejemplo: git checkout main
