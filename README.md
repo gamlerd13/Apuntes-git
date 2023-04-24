@@ -58,4 +58,4 @@ Para editar el ultimo commit
 ## Para ignorar archivos y carpetas
 
 Aqui solo hace falta crear un archivo .gitignore y dentro escribir en cada fila la carpeta
-o el nombre del archivo que no deseas hacer commit
+o el nombre del archivo que no deseas hacer commit. me deja hacer commits ilimitados creo xd
