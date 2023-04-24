@@ -35,3 +35,9 @@
 Para guardar el commit sin entrar el editor nano i vin:
 
 > git commit -m "mensaje del commit"
+
+Para editar el ultimo commit
+
+> git commmit --amend :editar desde nano o vim
+
+> git commmit --amend -m "Este commit fue editado" :editar desde terminal
