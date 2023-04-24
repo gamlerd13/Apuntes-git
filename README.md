@@ -45,11 +45,11 @@ lo mismo para ver el email
 
 > git commit :Aqui se podemos guardar los commit pero se abrirá un editor de texto para poner los mensajes del commit
 
-Para guardar el commit sin entrar el editor nano i vin:
+## Para guardar el commit sin entrar el editor nano i vin:
 
 > git commit -m "mensaje del commit"
 
-Para editar el ultimo commit
+## Para editar el ultimo commit
 
 > git commmit --amend :editar desde nano o vim
 
@@ -75,6 +75,8 @@ o el nombre del archivo que no deseas hacer commit. me deja hacer commits ilimit
 
 ## Ramas
 
+---
+
 ### Para ver lista de ramas y en que rama estamos
 
 > git branch
@@ -86,3 +88,19 @@ o el nombre del archivo que no deseas hacer commit. me deja hacer commits ilimit
 ### para cambiar de rama
 
 > git checkout nombreRama : ejemplo: git checkout main
+
+## Para cambiar de nombre a la rama
+
+FORMA 1:
+Primero hay que ubicarse en la rama que se desea cambiar, con el comando anterior se puede y luego se ejecuta lo sgt:
+
+> git branch -m OtroName
+
+FORMA 2:
+Aqui no importa en que rama estes ubicado
+
+> git branch -m nameRama NameRamaaPoner
+
+## Eliminar una rama
+
+> git branch -d nameRama
