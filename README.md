@@ -25,3 +25,5 @@
 ---
 
 > git log : Para ver todos los commits que hemos creado.
+
+Voy a tratar de guardar un commit son edita en nano o vim
