@@ -12,9 +12,7 @@
 - git pull
 - git clone
 
-### Para crear nuestro primer snapShot o punto de partida
-
-> git log : para mostrar los commits, la hora de creacion y el autor.
+---
 
 ### Para configurar los usuarios locales
 
@@ -24,7 +22,19 @@
 
 ---
 
-> git log : Para ver todos los commits que hemos creado.
+### Para mostrar todos lo commits git log
+
+> git log : para mostrar los commits, la hora de creacion y el autor.
+
+> git log --pretty=oneline --abbrev-commit : Para ver todos los commits resumidos, mejor visualizacion.
+
+> git log --stat : Esto hace que muestra los commits completos y se agrega el numero total de archivos y lineas modificadas.
+
+> git log -p // git log --patch : Muestra los cambios que hemos realizado, no se usa mucho i think
+
+## Para mostrar los commimt con autor especifico
+
+> git log --author="gamlerd13"
 
 ---
 
