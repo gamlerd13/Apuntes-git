@@ -19,4 +19,9 @@
 ## Para configurar los usuarios locales
 
 > git config --global user.email "gamlerd13@gmail.com"
+
 > git config ---global user.name "gamlerd13"
+
+---
+
+> git log : Para ver todos los commits que hemos creado.
