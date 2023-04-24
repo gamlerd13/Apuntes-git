@@ -41,3 +41,10 @@ Para editar el ultimo commit
 > git commmit --amend :editar desde nano o vim
 
 > git commmit --amend -m "Este commit fue editado" :editar desde terminal
+
+## Para volver al ultimo commit sin haber commiteado a los archivos que estamos guardando con [ctrl + s] en el editor.
+
+> git checkout -- nombreArchivo.html :Si modificas tu archivo sin haber hecho commit, este codigo lo que hará es volver al
+> ultimo commit del archivo.
+
+> git checkout . :Este regresa a todos los archivos modificado sin commit al ultimo commit hecho
