@@ -48,3 +48,9 @@ Para editar el ultimo commit
 > ultimo commit del archivo.
 
 > git checkout . :Este regresa a todos los archivos modificado sin commit al ultimo commit hecho
+
+## Para poder ver las diferencias de los cambios hechos en un archivo o en todos los archivos
+
+> git diff archivos.html :Este me muestra lo que he cambiado en el archivo, it's important 'cause show us before and after
+
+> git diff . :I think show us the all changes modified for us
