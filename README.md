@@ -54,3 +54,8 @@ Para editar el ultimo commit
 > git diff archivos.html :Este me muestra lo que he cambiado en el archivo, it's important 'cause show us before and after
 
 > git diff . :I think show us the all changes modified for us
+
+## Para ignorar archivos y carpetas
+
+Aqui solo hace falta crear un archivo .gitignore y dentro escribir en cada fila la carpeta
+o el nombre del archivo que no deseas hacer commit
