@@ -102,3 +102,21 @@ Aqui no importa en que rama estes ubicado
 ## Eliminar una rama
 
 > git branch -d nameRama
+
+## Bajar repositorio en una de nuestras ramas locacles
+
+Dbemos ubicarnos en nuestra rama local donde queremos que baje el repo y ejecutamos en sgt comando.
+
+> git pull origin dashboard
+
+## Para subir repositorio en una rama existente en github o nueva
+
+### Primero nos ubicamos en la rama local que queremos subir al github, y luego ejecutamos el sgt comando.
+
+#### Aqui si existe esta rama en github, se subirá los cambios en esa rama, si no existe se creará esa rama y subira los archivos
+
+> git push origin rama_local_enlaqueestamso
+
+### Aqui si la rama especificada existe, se subirá los vamios alla, y si no existe la creará y subira los archivos en esa rama.
+
+> git push origin rama_local_enlaqueestamso:rama_especificada
