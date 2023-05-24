@@ -1,7 +1,5 @@
 # APUNTES PARA GIT
 
----
-
 > Comandos basicos de git
 
 - git init
